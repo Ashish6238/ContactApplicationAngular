@@ -1,18 +1,92 @@
+<!DOCTYPE html>
 <html>
 
-<head></head>
+<head>
+  <title>Home Page</title>
+
+</head>
+<header></header>
 
 <body>
+  <div class="main">
+    <!-- <div class="navbar">
+      <div class="icon">
+        <h2 class="logo">Tutors</h2>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SERVICE</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
 
-  <div class="title">
-    <h1>Contact Application</h1>
+      <div class="search">
+        <input class="srch" type="search" name="" placeholder="Type To text">
+        <a href="#"> <button class="btn">Search</button></a>
+      </div>
+    </div> -->
+    <div class="content">
+      <h1>Contact Application<br><span>Management</span> <br>Service</h1><br><br>
+      <p class="par">Presenting the Contact Book application.<br> This application will help us to manage our contacts.
+      </p>
+
+      <!-- <button class="cn"><a href="#">JOIN US</a></button> -->
+
+      <div class="form">
+        <h2>Login Here</h2>
+        <input type="email" name="email" placeholder="Enter Email Here">
+        <input type="password" name="" placeholder="Enter Password Here">
+        <button class="btnn"><a routerLink="../contactinfo">Login</a></button>
+        <router-outlet></router-outlet>
+
+        <div class="checkbox">
+          <input id="check1" type="checkbox" class="styled" checked>
+          <label for="check1">Remember me</label>
+
+
+        </div>
+        <div class="forgot"><a href="#">Forgot Password ?</a></div>
+
+
+        <p class="link">Don't have an account ?<br>
+          <a routerLink="../register">Sign up </a> here
+
+
+        </p>
+
+
+
+
+      </div>
+    </div>
   </div>
-  <hr>
+
+
+  <div id="features">
+    <div class="wrapper">
+        <ul>
+            <li class="feature-1">
+                <h4>Easy to Use</h4>
+
+            </li>
+            <li class="feature-2">
+                <h4>Enhanced Security</h4>
+
+            </li>
+            <li class="feature-3">
+                <h4>Ready to Go</h4>
+
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+</div>
+
+
 
 
 </body>
-
-
-
 
 </html>

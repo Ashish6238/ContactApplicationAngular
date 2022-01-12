@@ -7,26 +7,34 @@
 form{
 
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-  height: 100vh;
-
+  height: 80vh;
+  margin-top: 200px;
+  margin-left: 200px;
   background-size: cover;
   background-position: center;
+  border:bluesolid;
 
 }
 /* Add padding to containers */
 .container {
-  padding:80px 10px
-
-
+  padding:40px;
 }
 .container h1{
-  color: white;
+  color: orange;
+  /* background-color: white; */
+  position:center;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .container p{
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
 .container b{
-  color: rgb(255, 255, 255);
+  color:orange;
+}
+.container label{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Full-width input fields */
@@ -51,13 +59,12 @@ hr {
 }
 
 /* Set a style for the submit/register button */
-.registerbtn {
-  background-color: #04AA6D;
-
+/* .registerbtn {
+  display: inline-block;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
-  border:solid green;
+
   cursor: pointer;
   width: 50%;
   opacity: 0.9;
@@ -65,15 +72,39 @@ hr {
 
 .registerbtn:hover {
   opacity:1;
+} */
+
+.registerbtn{
+  width: 240px;
+  height: 40px;
+  background: #0eec19;
+  border: none;
+  margin-top: 30px;
+  margin-left: 80px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.registerbtn:hover{
+  background: #fff;
+  color: #0eec19;
+}
+
+.registerbtn a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+
 }
 
 /* Add a red text color to links */
 a {
-  color:rgb(201, 185, 246);
+  color:orange;
 }
 
-/* Set a grey background color and center the text of the "sign in" section */
-/* .signin {
-  background-color: #f1f1f1;
-  text-align: center;
-} */
+.formend{
+margin-top: 100px;
+}

@@ -5,24 +5,34 @@
 form{
 
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-  height: 100vh;
+  height: 90vh;
+  margin-top: 200px;
+  margin-left: 200px;
   background-size: cover;
   background-position: center;
+  border:bluesolid;
 
 }
 /* Add padding to containers */
 .container {
- padding:80px 10px;
-
+  padding:40px;
 }
 .container h1{
-  color: white;
+  color: orange;
+  /* background-color: white; */
+  position:center;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .container p{
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
 .container b{
-  color: rgb(83, 25, 219);
+  color:orange;
+}
+.container label{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Full-width input fields */
@@ -47,20 +57,31 @@ hr {
 }
 
 /* Set a style for the submit/register button */
-.savebtn {
-  background-color: #04AA6D;
-
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
+.savebtn{
+  width: 240px;
+  height: 40px;
+  background: #0eec19;
   border: none;
+  margin-top: 30px;
+  margin-left: 80px;
+  font-size: 18px;
+  border-radius: 10px;
   cursor: pointer;
-  width: 50%;
-  opacity: 0.9;
+  color: #fff;
+  transition: 0.4s ease;
 }
 
-.savebtn:hover {
-  opacity:1;
+.savebtn:hover{
+  background: #fff;
+  color: #0eec19;
 }
+
+.savebtn a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+
+}
+
 
 

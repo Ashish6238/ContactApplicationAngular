@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html>
 
-<head></head>
+<head>
+  <title>Home Page</title>
+
+</head>
 <header>
   <div class="main">
-    <ul>
-      <li><a routerLink="Contact/homepage">Home</a></li>
-      <li><a routerLink="Contact/userlogin">Login</a></li>
-      <li><a routerLink="Contact/register">Register</a></li>
-      <li><a routerLink="Contact/contactinfo">Contactinfo</a></li>
-      <li><a href="#">About Us</a></li>
-    </ul>
-    <router-outlet> </router-outlet>
+    <div class="navbar">
+      <div class="icon">
+        <h2 class="logo">Tutors</h2>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a routerLink="./Contact/homepage">HOME</a></li>
+          <li><a href="#">SERVICE</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a routerLink="Contact/register">CONTACT US</a></li>
+          <router-outlet></router-outlet>
+
+        </ul>
+        <router-outlet></router-outlet>
+      </div>
+
+
+    </div>
+
   </div>
 </header>
-<footer>
-  <div class="end">
-    <h1>ContactApplication@copyrights.com</h1>
-  </div>
-</footer>
 
 <body>
 
 </body>
-
 
 </html>
