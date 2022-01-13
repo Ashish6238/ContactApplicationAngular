@@ -2,35 +2,36 @@
 <html>
 
 <head>
+
   <title>Home Page</title>
 
 </head>
+
 <header>
   <div class="main">
     <div class="navbar">
-      <div class="icon">
+      <!-- <div class="icon">
+
         <h2 class="logo">Tutors</h2>
-      </div>
+
+      </div> -->
       <div class="menu">
         <ul>
-          <li><a routerLink="./Contact/homepage">HOME</a></li>
+          <li><a routerLink="Contact/homepage">HOME</a></li>
           <li><a href="#">SERVICE</a></li>
-          <li><a href="#">ABOUT</a></li>
+          <li><a routerLink="Contact/userlogin">ABOUT</a></li>
           <li><a routerLink="Contact/register">CONTACT US</a></li>
           <router-outlet></router-outlet>
 
         </ul>
         <router-outlet></router-outlet>
       </div>
-
-
     </div>
-
   </div>
 </header>
 
 <body>
-
 </body>
+
 
 </html>

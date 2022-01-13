@@ -6,37 +6,45 @@
 
 form{
 
+  border-radius: 10px;
+  position:absolute;
+  z-index: 2;
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-  height: 100vh;
-
-  background-size: cover;
-  background-position: center;
+  height: 750px;
+  width: 500px;
+  margin-top: 70px;
+  margin-left: 350px;
 
 
 }
 /* Add padding to containers */
 .container {
-  padding:80px 10px
+  padding:40px;
 
 
 }
 .container h1{
-  color: white;
+  color:rgb(255, 166, 0);
+  /* background-color: white; */
+  position:center;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .container p{
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
 .container b{
-  color: rgb(255, 255, 255);
+  color:rgb(255, 166, 0);
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password]{
+input[type=text], input[type=password] {
   width: 100%;
   padding: 15px ;
   margin: 15px 0 22px 0;
   display: inline-block;
-  border: none;
+  border:none;
   background: #f1f1f1;
 }
 
@@ -53,20 +61,32 @@ hr {
 
 /* Set a style for the submit/register button */
 .loginbtn {
-  background-color: #04AA6D;
-
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border:solid green;
+  width: 240px;
+  height: 40px;
+  background: #0cb815;
+  border: none;
+  margin-top: 30px;
+  margin-left: 80px;
+  font-size: 20px;
+  font-weight:bolder;
+  border-radius: 10px;
   cursor: pointer;
-  width: 50%;
-  opacity: 0.9;
+  color: rgb(5, 5, 5);
+  transition: 0.4s ease;
+}
+.loginbtn:hover{
+  background: #fff;
+  color: #020202;
 }
 
-.registerbtn:hover {
-  opacity:1;
+.loginbtn a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+
 }
+
+
 
 /* Add a red text color to links */
 a {

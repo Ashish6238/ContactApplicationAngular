@@ -3,24 +3,34 @@
 * {
   box-sizing:border-box
 }
+body{
+  height: auto;
+  width: auto;
+
+}
 
 form{
-
+  /* background: url('src/assets/img/body3.jpg'); */
+  border-radius: 10px;
+  position:absolute;
+  z-index: 2;
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-  height: 80vh;
-  margin-top: 200px;
-  margin-left: 200px;
-  background-size: cover;
+  height: 750px;
+  width: 500px;
+  margin-top: 70px;
+  margin-left: 350px;
+  /* background-size: cover;
   background-position: center;
-  border:bluesolid;
+  border:bluesolid; */
 
 }
 /* Add padding to containers */
 .container {
   padding:40px;
+
 }
 .container h1{
-  color: orange;
+  color:rgb(255, 166, 0);
   /* background-color: white; */
   position:center;
   margin-left: 100px;
@@ -31,7 +41,7 @@ form{
   color: white;
 }
 .container b{
-  color:orange;
+  color:rgb(255, 166, 0);
 }
 .container label{
   font-family: Arial, Helvetica, sans-serif;
@@ -43,7 +53,7 @@ input[type=text], input[type=password] {
   padding: 15px ;
   margin: 15px 0 22px 0;
   display: inline-block;
-  border: none;
+  border:none;
   background: #f1f1f1;
 }
 
@@ -77,20 +87,21 @@ hr {
 .registerbtn{
   width: 240px;
   height: 40px;
-  background: #0eec19;
+  background: #0cb815;
   border: none;
   margin-top: 30px;
   margin-left: 80px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight:bolder;
   border-radius: 10px;
   cursor: pointer;
-  color: #fff;
+  color: rgb(5, 5, 5);
   transition: 0.4s ease;
 }
 
 .registerbtn:hover{
   background: #fff;
-  color: #0eec19;
+  color: #020202;
 }
 
 .registerbtn a{
@@ -102,7 +113,7 @@ hr {
 
 /* Add a red text color to links */
 a {
-  color:orange;
+  color:rgb(255, 166, 0);
 }
 
 .formend{
